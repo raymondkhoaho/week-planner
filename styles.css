@@ -105,3 +105,22 @@ textarea {
 .cancel-button {
   background-color: red;
 }
+
+.column-seventh {
+  flex-basis: calc(100% / 7);
+  border: 5px double #95bcf2;
+  margin: 20px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-seventh a {
+  text-decoration: none;
+  color: black;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
