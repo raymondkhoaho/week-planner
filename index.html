@@ -5,10 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Week Planner</title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@300&display=swap"
+    rel="stylesheet">
 </head>
 <body>
-  <div class="overlay"></div>
-  <div class="modal">
+  <div class="overlay hidden"></div>
+  <div class="modal hidden">
     <form action="">
       <div class="row">
         <h2>Add Entry</h2>
@@ -42,6 +44,9 @@
       </div>
       <div class="row submit-btn">
         <button class="text-align-end submit-btn-style">Submit</button>
+      </div>
+      <div>
+        <button class="cancel-button">Cancel</button>
       </div>
     </form>
   </div>
