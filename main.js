@@ -49,3 +49,27 @@ function submitHandler(event) {
   $submitForm.reset();
   closeModal();
 }
+
+var $daysDiv = document.querySelector('div.days');
+var $days = document.querySelectorAll('.day-link');
+$daysDiv.addEventListener('click', daysofweekHandler);
+function daysofweekHandler(event) {
+  for (var i = 0; i < $days.length; i++) {
+    if (event.target.getAttribute('data-view') === $days[i].getAttribute('data-view'))
+  }
+}
+
+      function renderEntry(obj) {
+        var tableRow = document.createElement('tr');
+        var tableDataTime = document.createElement('td');
+        tableDataTime.textContent = obj.time;
+        var tableDataNotes = document.createElement('td');
+        tableDataNotes.textContent = obj.notes;
+
+        tableRow.appendChild(tableDataTime);
+        tableRow.appendChild(tableDataNotes);
+
+        return tableRow;
+      }
+
+      var tableBody = document.
