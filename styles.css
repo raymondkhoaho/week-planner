@@ -124,3 +124,17 @@ textarea {
 .space-evenly {
   justify-content: space-evenly;
 }
+
+th {
+  background-color: #95bcf2;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #c1d7f5;
+}
+
+table {
+  width: 100%;
+  border: 2px solid black;
+}
