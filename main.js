@@ -32,6 +32,8 @@ function closeModal(event) {
   $overlay.className = 'overlay hidden';
 }
 
+$overlay.addEventListener('click', closeModal);
+
 var $submitForm = document.querySelector('.input-form');
 $submitForm.addEventListener('submit', submitHandler);
 
