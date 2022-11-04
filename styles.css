@@ -38,3 +38,62 @@
   font-size: 1.5rem;
   box-shadow: 3px 3px 3px 1px;
 }
+
+.overlay {
+  background: rgb(0 0 0 / 75%);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.modal {
+  width: 350px;
+  height: 250px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 2;
+}
+
+.dropdown {
+  column-gap: 10px;
+  padding-bottom: 1rem;
+}
+
+form h2 {
+  padding-left: 4rem;
+  margin-top: 0;
+}
+
+textarea {
+  margin-bottom: 1rem;
+  resize: none;
+}
+
+.text-align-end {
+  text-align: end;
+}
+
+.submit-btn {
+  justify-content: flex-end;
+}
+
+.hidden {
+  display: none;
+}
+
+.submit-btn-style {
+  color: black;
+  background-color: #95bcf2;
+}
