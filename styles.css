@@ -89,8 +89,8 @@ textarea {
   text-align: end;
 }
 
-.submit-btn {
-  justify-content: flex-end;
+.space-between {
+  justify-content: space-between;
 }
 
 .hidden {
@@ -103,8 +103,5 @@ textarea {
 }
 
 .cancel-button {
-  position: absolute;
-  left: 55px;
-  bottom: 21px;
   background-color: red;
 }

@@ -11,42 +11,40 @@
 <body>
   <div class="overlay hidden"></div>
   <div class="modal hidden">
-    <form action="">
+    <form action="" class="input-form">
       <div class="row">
         <h2>Add Entry</h2>
       </div>
       <div class="row dropdown">
-        <select class="select-format">
-          <option>Day of Week</option>
-          <option>Sunday</option>
-          <option>Monday</option>
-          <option>Tuesday</option>
-          <option>Wednesday</option>
-          <option>Thursday</option>
-          <option>Friday</option>
-          <option>Saturday</option>
+        <select class="select-format" name="dayofweek">
+          <option value="">Day of Week</option>
+          <option value="sunday">Sunday</option>
+          <option value="monday">Monday</option>
+          <option value="tuesday">Tuesday</option>
+          <option value="wednesday">Wednesday</option>
+          <option value="thursday">Thursday</option>
+          <option value="friday">Friday</option>
+          <option value="saturday">Saturday</option>
         </select>
-        <select name="select-format" id="">
+        <select class="select-format" id="select" name="time">
           <option value="">Time</option>
-          <option value="">9:00AM</option>
-          <option value="">10:00AM</option>
-          <option value="">11:00AM</option>
-          <option value="">12:00PM</option>
-          <option value="">1:00PM</option>
-          <option value="">2:00PM</option>
-          <option value="">3:00PM</option>
-          <option value="">4:00PM</option>
-          <option value="">5:00PM</option>
+          <option value="9:00">9:00AM</option>
+          <option value="10:00">10:00AM</option>
+          <option value="11:00">11:00AM</option>
+          <option value="12:00">12:00PM</option>
+          <option value="1:00">1:00PM</option>
+          <option value="2:00">2:00PM</option>
+          <option value="3:00">3:00PM</option>
+          <option value="4:00">4:00PM</option>
+          <option value="5:00">5:00PM</option>
         </select>
       </div>
       <div class="row">
-        <textarea name="" id="" cols="30" rows="5" placeholder="Description"></textarea>
+        <textarea name="notes" id="notes" cols="30" rows="5" placeholder="Description"></textarea>
       </div>
-      <div class="row submit-btn">
-        <button class="text-align-end submit-btn-style">Submit</button>
-      </div>
-      <div>
+      <div class="row space-between">
         <button class="cancel-button">Cancel</button>
+        <button class="text-align-end submit-btn-style">Submit</button>
       </div>
     </form>
   </div>
